@@ -8,6 +8,7 @@ GEM
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     is-gd-shrinker (0.1.0)
+    json (1.8.3)
     marky_markov (0.3.5)
       msgpack
     mechanize (2.7.4)
@@ -39,6 +40,7 @@ DEPENDENCIES
   cinch
   daybreak
   is-gd-shrinker
+  json
   marky_markov
   mechanize
   nokogiri

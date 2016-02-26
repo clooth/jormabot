@@ -7,6 +7,7 @@ require './plugins/joinpart.rb'
 require './plugins/markov.rb'
 require './plugins/nomnews.rb'
 require './plugins/nomprofile.rb'
+require './plugins/bnet.rb'
 
 bot = Cinch::Bot.new do
   configure do |c|
@@ -14,7 +15,7 @@ bot = Cinch::Bot.new do
     c.channels = ['#jormabot']
     c.nick = 'jormabot'
     c.verbose = true
-    c.plugins.plugins = [Grammar, RaceOP, JoinPart, Markov, NoMNews, NoMProfile]
+    c.plugins.plugins = [Grammar, RaceOP, JoinPart, Markov, NoMNews, NoMProfile, BattleNet]
   end
 end
 
